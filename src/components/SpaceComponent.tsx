@@ -10,11 +10,12 @@ const SpaceComponent = (props: Props) => {
 
     const { width, height } = props;
 
-    return (<View style={{
-        width,
-        height,
-    }}
-    />
+    return (
+        <View style={[{
+            width,
+            height,
+        }]}
+        />
     )
 }
 
