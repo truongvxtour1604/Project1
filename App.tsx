@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { SplashScreen } from './src/screens';
 import { NavigationContainer } from '@react-navigation/native';
 import AuthNavigator from './src/navigators/AuthNavigator';
-import { StatusBar, View } from 'react-native';
+import { StatusBar } from 'react-native';
 import { useAsyncStorage } from '@react-native-async-storage/async-storage';
 import MainNavigator from './src/navigators/MainNavigator';
 
