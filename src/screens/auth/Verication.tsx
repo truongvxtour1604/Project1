@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const ForgotPassword = () => {
+const Verication = () => {
     return (
         <View>
-            <Text>ForgotPassword</Text>
+            <Text>Verication</Text>
         </View>
     )
 }
 
-export default ForgotPassword
+export default Verication

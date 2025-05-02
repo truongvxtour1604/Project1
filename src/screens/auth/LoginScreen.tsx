@@ -54,7 +54,7 @@ const LoginScreen = ({ navigation }: any) => {
           </RowComponent>
           <ButtonComponent
             text='Forgot password'
-            onPress={() => { }}
+            onPress={() => {navigation.navigate('ForgotPassword')}}
             type='text'
           />
         </RowComponent>
@@ -62,7 +62,7 @@ const LoginScreen = ({ navigation }: any) => {
 
       <SpaceComponent height={16} />
 
-      <SectionComponent styles={[{alignItems: 'center'}]}>
+      <SectionComponent>
         <ButtonComponent text='SIGN IN' type='primary' icon />
       </SectionComponent>
 
@@ -78,7 +78,7 @@ const LoginScreen = ({ navigation }: any) => {
               console.log('Navigating to SignUpScreen')
               navigation.navigate('SignUpScreen')
             }}
-          />  
+          />
 
         </RowComponent>
       </SectionComponent>

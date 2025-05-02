@@ -37,7 +37,7 @@ const SignUpScreen = ({ navigation }: any) => {
         />
         <InputComponent
           value={values.email} onChange={val => handleChangeValue('email', val)}
-          placeholder='Email'
+          placeholder='abc@gmail.com'
           allowClear
           affix={<Sms size={22} color={appColors.gray} />}
         />
@@ -60,7 +60,7 @@ const SignUpScreen = ({ navigation }: any) => {
 
       <SpaceComponent height={16} />
 
-      <SectionComponent styles={[{alignItems: 'center'}]}>
+      <SectionComponent>
         <ButtonComponent text='SIGN UP' type='primary' icon />
       </SectionComponent>
 
