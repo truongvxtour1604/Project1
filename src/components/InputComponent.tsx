@@ -1,6 +1,5 @@
-import { View, Text, TouchableOpacity, TextInput, StyleSheet, TextInputProps, KeyboardType } from 'react-native'
+import { View, TouchableOpacity, TextInput, StyleSheet, TextInputProps, KeyboardType } from 'react-native'
 import React, { ReactNode, useState } from 'react'
-import { EyeSlash } from 'iconsax-react-native'
 import { appColors } from '../constants/appColor'
 import AntDesign from 'react-native-vector-icons/AntDesign'
 import FontAwesome from 'react-native-vector-icons/FontAwesome'
